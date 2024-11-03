@@ -6,6 +6,8 @@ export default StyleSheet.create({
     flex: 1,
     backgroundColor: colors.background,
     padding: spacing.medium,
+    marginTop: 20,
+    marginBottom: 20,
   },
   heading: {
     fontSize: 28,

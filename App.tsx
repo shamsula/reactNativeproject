@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, Text, TouchableOpacity } from 'react-native';
+import FeaturedHero from './src/components/FeaturedHero';
 import styles from './src/styles/styles';
 
 export default function App() {
@@ -16,6 +17,7 @@ export default function App() {
       <TouchableOpacity style={styles.button}>
         <Text style={styles.buttonText}>Get Started</Text>
       </TouchableOpacity>
+      <FeaturedHero /> 
     </View>
   );
 }
